@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Juego Economia</title>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.0/jquery.mobile.min.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.0/jquery.mobile.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div id="ctnTiempo"><span id="tiempo"></span> 
+		<img src="img/relax.gif" class="imgTiempo"  id="t1"alt="">
+		<img src="img/pensando.png" class="imgTiempo oculta" id="t2" alt="">
+		<img src="img/pensando2.png" class="imgTiempo oculta" id="t3" alt="">
+		<img src="img/estres.gif" class="imgTiempo oculta" id="t4" alt="">
+
+
+	</div> <br><br>
+	<div id="ctnPreguntas">
+
+		<div id="pregunta1" class="pregunta">
+			1 <br>
+			¿En que año aparece la economia clasica?<br> 	
+
+			 <button class="ui-btn ui-btn-inline btnPista">Pista</button>
+
+   			 <label for="radio1">1987</label>
+  			 <input type="radio" name="radio" id="radio1" class="custom">
+
+  			 <label for="radio2">1776</label>
+  			 <input type="radio" name="radio" id="radio2" value="correcta"class="custom">
+
+  			 <label for="radio3">1726</label>
+  			 <input type="radio" name="radio" id="radio3" class="custom">
+
+  			 <label for="radio4">1934</label>
+  			 <input type="radio" name="radio" id="radio4" class="custom">
+  			  
+  			  <div id="pista1" class="pista">
+  			
+  			  <br>
+  			  En esa epoca no existian avances tecnologicos como el telefono.
+  			  <button class="ui-btn ui-icon-arrow-l ui-btn-icon-left btnCerrarPista">Regresar</button>
+  			  </div>
+
+		</div>
+		<div id="pregunta2" class="pregunta rojo">
+			2 <br>
+			¿Segun la economia clasica en que se basa  la riqueza de un pais?<br>	
+			<button class="ui-btn ui-btn-inline btnPista">Pista</button>	
+
+   			 <label for="radio11">Cantidad de oro del pais</label>
+  			 <input type="radio" name="radio1" id="radio11" class="custom">
+
+  			 <label for="radio12">Tesoreria del estado</label>
+  			 <input type="radio" name="radio1" id="radio12" class="custom">
+
+  			 <label for="radio13">PIB (Producto Interno Bruto)</label>
+  			 <input type="radio" name="radio1" id="radio13" class="custom">
+
+  			 <label for="radio14">PNB (Producto Nacional Bruto)</label>
+  			 <input type="radio" name="radio1" id="radio14" value="correcta" class="custom">
+
+			 <div id="pista1" class="pista">
+  			  
+  			  	<br>
+  			  	Antes de la economia clasica la riqueza  se definía con la tesorería del rey o
+				del estado.
+				<button class="ui-btn ui-icon-arrow-l ui-btn-icon-left btnCerrarPista">Regresar</button>
+  			  </div>
+
+		</div>
+		<div id="pregunta3" class="pregunta amarillo">
+			3 <br>
+			¿La economia clasica desarrollo su propia teoria del?<br>
+			<button class="ui-btn ui-btn-inline btnPista">Pista</button>		
+
+   			 <label for="radio21">Capital</label>
+  			 <input type="radio" name="radio2" id="radio21" class="custom">
+
+  			 <label for="radio22">Ingreso</label>
+  			 <input type="radio" name="radio2" id="radio22" class="custom">
+
+  			 <label for="radio23">Valor</label>
+  			 <input type="radio" name="radio2" id="radio23" value="correcta" class="custom">
+
+  			 <label for="radio24">Enriquecimiento  </label>
+  			 <input type="radio" name="radio2" id="radio24"  class="custom">
+
+  			 <div id="pista1" class="pista">
+  			  	
+  			  	<br>
+  			  	Es una teoría que considera que el valor de un bien o servicio depende de la cantidad de trabajo que lleva incorporado.
+  			  	<button class="ui-btn ui-icon-arrow-l ui-btn-icon-left btnCerrarPista">Regresar</button>
+  			  </div>
+
+		</div>
+
+		<div id="pregunta4" class="pregunta azul">
+			4 <br>
+			John Stuart Mill apuntaba a una clara diferencia entre dos funciones del mercado.¿estas son ?<br> 
+			<button class="ui-btn ui-btn-inline btnPista">Pista</button>		
+
+   			 <label for="radio31">Ingreso y Egreso</label>
+  			 <input type="radio" name="radio3" id="radio31" class="custom">
+
+  			 <label for="radio32">Asignacion y Distribucion de recursos</label>
+  			 <input type="radio" name="radio3" id="radio32" value="correcta" class="custom">
+
+  			 <label for="radio33"> PIB y PNB</label>
+  			 <input type="radio" name="radio3" id="radio33" class="custom">
+
+  			 <label for="radio34">Oferta y demanda  </label>
+  			 <input type="radio" name="radio3" id="radio34"  class="custom">
+
+  			 <div id="pista1" class="pista">
+  			  	
+  			  	<br>
+  			  	El mercado puede ser eficiente en la asignación de recursos pero no en la distribución de ingresos,Por lo que es necesario que la sociedad intervenga (redistribución de rentas)
+				<button class="ui-btn ui-icon-arrow-l ui-btn-icon-left btnCerrarPista">Regresar</button>
+  			  </div>
+
+		</div>
+
+		<div id="pregunta5" class="pregunta">
+			5 <br>
+			¿Segun Thomas Robert  cual es la principal razon de la disminucion de los salarios?<br>			
+			<button class="ui-btn ui-btn-inline btnPista">Pista</button>
+   			 <label for="radio41">El alto costo de la mano de obra</label>
+  			 <input type="radio" name="radio4" id="radio41" class="custom">
+
+  			 <label for="radio42">La falta de trabajadores capacitados</label>
+  			 <input type="radio" name="radio4" id="radio42"  class="custom">
+
+  			 <label for="radio43">Las politicas del estado</label>
+  			 <input type="radio" name="radio4" id="radio43" class="custom">
+
+  			 <label for="radio44">La sobrepoblacion </label>
+  			 <input type="radio" name="radio4" id="radio44" value="correcta"  class="custom">
+
+  			 <div id="pista1" class="pista">
+  			  	
+  			  	<br>
+  			  	<img src="img/sob.jpg" alt="">
+  			  	<button class="ui-btn ui-icon-arrow-l ui-btn-icon-left btnCerrarPista">Regresar</button>
+  			  </div>
+
+		</div>
+
+		<div id="pregunta6" class="pregunta morado">
+			6 <br>
+			Seleccione la imagen que se relacione con el concepto PNB(Producto Nacional Bruto):<br> <br>			
+			<div id="img1" class="imagen">
+			<img src="img/dolar.jpg" alt="">
+			</div>
+
+			<div id="img2" class="imagen" value="correcta">
+			<img src="img/pnb.jpg" alt="">
+			</div>
+
+   			
+
+		</div>
+
+		<div id="pregunta7" class="pregunta naranja">
+			7 <br>
+			¿Cual de las siguientes imagenes aparece en la presentacion
+			haciendo referencia a la sobrepoblacion?<br> <br>			
+			<div id="img1" class="imagen" value="correcta">
+			<img src="img/sob1.jpg" alt="">
+			</div>
+
+			<div id="img2" class="imagen">
+			<img src="img/sob2.jpg" alt="">
+			</div>
+
+   			
+
+		</div>
+
+		<div id="pregunta8" class="pregunta amarillo">
+			8 <br>
+			¿Es uno de los creadores de la economia clasica?<br> <br>			
+			<div id="img1" class="imagen" value="correcta">
+			<img src="img/pad.jpg" alt="">
+			</div>
+
+			<div id="img2" class="imagen">
+			<img src="img/nap.jpg" alt="">
+			</div>
+
+   			
+
+		</div>
+		
+		<button class="ui-btn" id="btnEnviar">Obtener Puntuacion</button>
+		<br><br>
+
+	</div><!--$(-end #ctnPreguntas-->
+
+	<script src="js/app.js"></script>
+</body>
+</html>
+
+
+
